@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalipark Arunadaya Sangha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Kalipark Arunadaya Sangha</h1>
+    <p>Celebrating Annapurna Pujo & Community Togetherness</p>
+    <nav>
+      <a href="#pujo">Pujo</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#banquet">Banquet</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Pujo Section -->
+  <section id="pujo">
+    <h2>Annapurna Pujo</h2>
+    <p>Our main festival celebrated with devotion and joy every year. Here’s a glimpse of traditions and celebrations.</p>
+    <img src="images/pujo1.jpg" alt="Annapurna Pujo" width="400">
+    <img src="images/pujo2.jpg" alt="Pujo Ritual" width="400">
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>Memories from our pujo, events, and celebrations.</p>
+    <img src="images/club1.jpg" alt="Club Image" width="300">
+    <img src="images/club2.jpg" alt="Festival Celebration" width="300">
+  </section>
+
+  <!-- Banquet Section -->
+  <section id="banquet">
+    <h2>Banquet Hall Booking</h2>
+    <p>Our banquet is available for weddings, birthdays, and special events.</p>
+
+    <div>
+      <img src="images/banquet1.jpg" alt="Banquet Hall" width="400">
+      <img src="images/banquet2.jpg" alt="Banquet Stage" width="400">
+    </div>
+
+    <form id="bookingForm">
+      <label for="date">Select Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="event">Event Type:</label>
+      <select id="event" name="event" required>
+        <option value="Wedding">Wedding</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Reception">Reception</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+
+      <button type="submit">Book Now</button>
+    </form>
+
+    <p id="availability"></p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Kalipark, Kolkata<br>
+       📞 +91-9876543210<br>
+       ✉️ kaliparksangha@example.com
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Kalipark Arunadaya Sangha | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
